@@ -8,7 +8,8 @@ public class Main {
         Task1 task1 = new Task1();
         task1.execute();
 
-        Task2 task2 = new Task2();
-        task2.execute();
+        String url = "https://test.ru/test/1072/page.jsp?intParam=12345&doubleParam=3.14&textParameter=someText";
+        Task2 task2 = new Task2(url);
+        System.out.println(task2);
     }
 }
