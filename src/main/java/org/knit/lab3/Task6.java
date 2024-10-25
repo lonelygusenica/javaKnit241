@@ -110,6 +110,7 @@ public class WarriorGuard extends Warrior {
         this.additionalDefense = 10;
     }
 
+
     @Override
     public void decreaseHealth(int value) {
         int effectiveDefense = defense + additionalDefense;
